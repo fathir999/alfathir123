@@ -1,0 +1,169 @@
+*,
+html{
+  padding: 0%;
+  margin: 0%;
+}
+/* ini judul nama, muhammad al fathir */
+ .container-navbar{      
+  
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+
+}
+/* supaya fotonya bulat yang foto saya */
+img{
+  border-radius: 20000px;
+}
+
+.warna1{
+  padding: 2%;
+  margin: 3%;
+  border-radius: 2px;
+  margin: 0;
+  height: 100vh;
+}
+
+forn-input,
+
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #727272;
+  border-radius: 40px ;
+  background-color: #121086;
+  justify-content: center;
+  background:rgba(255, 255, 255, 0.5);
+}
+    
+
+
+
+body{
+  background-image: url(gambar-pemandangan-alam-indah2.jpg);
+  width: 100%;
+  background-size: cover;
+}
+
+.form-input {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #000000;
+}
+
+form textarea {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #0d0c0c;
+  justify-content: center;
+}
+
+form button {
+  background-color: #8f93cd;
+  color: #000000;
+  border: none;
+  padding: 20px ;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+form button:hover {
+  background-color: #1c2f86;
+}
+
+.tengah{
+  text-align: center;
+}
+
+label{
+  color: #fff;
+}
+.judul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0.5) ;
+  color: #000000;
+  border-radius: 20px;
+}
+.judul1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.loginform{
+  justify-content: center;
+}
+
+input{
+  display: flex;
+  text-align: center;
+}
+#emailinput {
+  display: flex;
+  padding: 10px;        /* Jarak dalam untuk teks */
+  font-size: 16px;      /* Ukuran teks */
+  border: 1px solid #ccc; /* Batas luar */
+  border-radius: 5px;   /* Sudut membulat */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+ 
+}
+#passwordinput{
+  display: flex;
+  padding: 10px;        /* Jarak dalam untuk teks */
+  font-size: 16px;      /* Ukuran teks */
+  border: 1px solid #ccc; /* Batas luar */
+  border-radius: 5px;   /* Sudut membulat */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+ 
+}
+.ketengah{
+  text-align: center;
+  justify-items: center;
+
+}
+footer {
+  bottom: 0;
+  text-align: center;
+  padding: 2%;
+  color: #ffffff;
+}
+
+
+
+
+ /* position: relative;
+ animation: moveAndDisappear 3s forwards; */
+
+
+/* @keyframes moveAndDisappear {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  50% {
+    left: 150px;
+    opacity: 0.5;
+  }
+  100% {
+    left: 300px;
+    opacity: 0; /* Menghilang sepenuhnya */
+  /* }
+} */ 
